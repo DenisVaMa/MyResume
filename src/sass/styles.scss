@@ -1,0 +1,12 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f7fa;
+}
+
+@import "variables";
+@import "mixins";
+@import "./header.scss";
+@import "./main.scss";
+@import "./sidebar.scss";
+
+
