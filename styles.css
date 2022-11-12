@@ -28,10 +28,8 @@ body {
 /* main-content styles */
 .main-content {
   background-color: #fff;
-  -webkit-box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-          box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-  margin: 0 auto;
-  width: 95%;
+  margin: 30px auto 30px auto;
+  width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -42,11 +40,14 @@ body {
   -webkit-box-align: left;
       -ms-flex-align: left;
           align-items: left;
-  padding: 20px;
 }
 @media (min-width: 1086px) {
   .main-content {
     padding: 105px 90px;
+    -webkit-box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+            box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
   }
 }
 
@@ -58,31 +59,42 @@ body {
 .about-position {
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 17px;
   color: #000000;
   margin-bottom: 20px;
+}
+@media (min-width: 1086px) {
+  .about-position {
+    font-size: 14px;
+  }
 }
 
 .about-name {
   font-style: normal;
   font-weight: 700;
-  font-size: 45px;
+  font-size: 50px;
   line-height: 55px;
   color: #000000;
   margin-bottom: 25px;
+}
+@media (min-width: 1086px) {
+  .about-name {
+    font-size: 45px;
+  }
 }
 
 .about-description {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 24px;
   color: #595959;
 }
 @media (min-width: 1086px) {
   .about-description {
     width: 600px;
+    font-size: 14px;
   }
 }
 
@@ -93,34 +105,55 @@ body {
 
 .projects-list {
   padding: 0;
-  margin-left: 15px;
+  margin-left: -10px;
+}
+@media (min-width: 1086px) {
+  .projects-list {
+    margin-left: 15px;
+  }
 }
 
 .title {
   font-style: normal;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 28px;
   line-height: 27px;
   color: #000000;
   margin-bottom: 10px;
+}
+@media (min-width: 1086px) {
+  .title {
+    font-size: 22px;
+  }
 }
 
 .projects-item {
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 24px;
   color: #000000;
+}
+@media (min-width: 1086px) {
+  .projects-item {
+    font-size: 14px;
+  }
 }
 
 .project,
 .project-link {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 24px;
   color: #595959;
   text-decoration: none;
+}
+@media (min-width: 1086px) {
+  .project,
+.project-link {
+    font-size: 14px;
+  }
 }
 
 .project-link {
@@ -253,7 +286,13 @@ body {
 }
 
 .contacts {
-  margin: 30px;
+  margin: auto auto;
+  min-height: 165px;
+}
+@media (max-device-width: 767px) {
+  .contacts {
+    margin-top: 50px;
+  }
 }
 @media (min-width: 1086px) {
   .contacts {
@@ -269,28 +308,43 @@ body {
   color: #ffffff;
   font-style: normal;
   font-weight: 700;
-  font-size: 22px;
   line-height: 27px;
   margin-bottom: 10px;
+  font-size: 28px;
+}
+@media (min-width: 1086px) {
+  .sidebar-title {
+    font-size: 22px;
+  }
 }
 
 .contact-type {
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 24px;
   color: #ffffff;
   margin-right: 10px;
+}
+@media (min-width: 1086px) {
+  .contact-type {
+    font-size: 14px;
+  }
 }
 
 .contact-link {
   opacity: 0.5;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 24px;
   text-decoration-line: underline;
   color: #FFFFFF;
+}
+@media (min-width: 1086px) {
+  .contact-link {
+    font-size: 14px;
+  }
 }
 
 @media (min-width: 1086px) {

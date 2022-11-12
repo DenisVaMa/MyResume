@@ -29,7 +29,11 @@
   }
   
   .contacts {
-    margin: 30px;
+    margin: auto auto;
+    min-height: 165px;
+    @include phoneDown {
+      margin-top: 50px;
+    }
     @include desktop {
       margin-bottom: 47px;
     }
@@ -43,28 +47,37 @@
     color: #ffffff;
     font-style: normal;
     font-weight: 700;
-    font-size: 22px;
     line-height: 27px;
     margin-bottom: 10px;
+    font-size: 28px;
+    @include desktop {
+      font-size: 22px;
+    }
   }
   
   .contact-type {
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 24px;
     color: #ffffff;
     margin-right: 10px;
+    @include desktop {
+      font-size: 14px;
+    }
   }
   
   .contact-link {
     opacity: 0.5;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 24px;
     text-decoration-line: underline;
     color: #FFFFFF;
+    @include desktop {
+      font-size: 14px;
+    }
   }
   
   .contacts,
