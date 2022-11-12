@@ -287,11 +287,11 @@ body {
 
 .contacts {
   margin: auto auto;
-  min-height: 165px;
 }
 @media (max-device-width: 767px) {
   .contacts {
     margin-top: 50px;
+    min-height: 165px;
   }
 }
 @media (min-width: 1086px) {

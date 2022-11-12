@@ -30,9 +30,9 @@
   
   .contacts {
     margin: auto auto;
-    min-height: 165px;
     @include phoneDown {
       margin-top: 50px;
+      min-height: 165px;
     }
     @include desktop {
       margin-bottom: 47px;
