@@ -27,7 +27,6 @@ body {
 
 /* main-content styles */
 .main-content {
-  background-color: #fff;
   margin: 30px auto 30px auto;
   width: 90%;
   display: -webkit-box;
@@ -48,6 +47,7 @@ body {
             box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin: 20px;
+    background-color: #fff;
   }
 }
 
@@ -105,7 +105,6 @@ body {
 
 .projects-list {
   padding: 0;
-  margin-left: -10px;
 }
 @media (min-width: 1086px) {
   .projects-list {
@@ -138,6 +137,11 @@ body {
   .projects-item {
     font-size: 14px;
   }
+}
+
+.project-link {
+  white-space: normal;
+  word-wrap: break-word;
 }
 
 .project,
